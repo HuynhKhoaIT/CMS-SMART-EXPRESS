@@ -1,0 +1,42 @@
+.list_1{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    .revenueList{
+        width: 70%;
+    }
+    .pieChar{
+        flex: 1;
+        padding: 20px 20px;
+        background-color: #fff;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .titleRate{
+        margin-top: 1rem;
+        font-size: 24px;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        color: #555;
+    }
+}
+.list_2{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+    
+    .titleRevenue{
+        margin-top: 1rem;
+        font-size: 24px;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        color: #555;
+    }
+}
